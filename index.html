@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruise Stores</title>
+    <link rel="shortcut icon" href="img/934-512.webp" type="img/934-512.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <!-- logo -->
+        <div class="logo">
+            <div class="logo_box">
+                <img src="img/934-512.webp" alt="logo_icon">
+                <h3 class="logo_text"><span>Big</span> Cruise <strong>Stores</strong></h3> 
+            </div>
+        </div>
+
+        <div id="toggle-btn">
+            <div id="nav_btn"></div>
+            <div id="nav_btn"></div>
+            <div id="nav_btn"></div>
+        </div>
+
+        <style>
+            #toggle-btn{
+                padding: 5px;
+                margin: 10px;
+                z-index: 120;
+            }
+            #nav_btn{
+                width: 40px;
+                height: 3px;
+                background: var(--dark);
+            }
+            #nav_btn:nth-child(1){
+                transform: translate(-10px, -6px);
+            }
+            #nav_btn:nth-child(2){
+                transform: translate(0, 0);
+            }
+            #nav_btn:nth-child(3){
+                transform: translate(-10px, 7px);
+            }
+            #nav_btn:nth-child(3) .rotate{
+                transform: rotate(34deg);
+            }
+
+        </style>
+
+        <!-- navbar -->
+        <div id="navbar" class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="clothes.html">Clothes</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+
+            
+
+            
+            <!-- Search -->
+            <div class="search">
+                <div class="search_box">
+                    <img src="img/UI_Icons_2-01-512.webp" alt="s_icon">
+                </div>
+            </div>
+
+            <div class="cart">
+                <div class="cart_box">
+                    <img src="img/img_62112.png" alt="cart">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--HEADER-->
+
+    <!--SHOWCASE-->
+    <section class="showcase">
+        <div class="showcase_box">
+            <div class="showcase_box_img">
+                <img src="img/boy.png" alt="">
+            </div>         
+            <!-- space -->
+            <div class="showcase_box_text">
+                <h3>New Entry</h3>
+                <h1><span>20%</span> 0ff</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum ad dolore aliquid distinctio facere deleniti ratione delectus officiis dolorem ducimus.</p>
+                <a href="clothes.html">
+                    <button>Explore</button>
+                </a>           
+            </div>
+        </div>
+    </section>
+    <!--SHOWCASE-->
+
+
+    <!-- FOOTER -->
+    <div class="footer_wrapper">
+        <footer>
+            <!-- EACH FOOTER -->
+            <div class="footer_box">
+                <div class="footer_box_each">
+                    <div class="logo_box">
+                        <img src="img/934-512.webp" alt="logo_icon">
+                        <h3 class="logo_text"><span>Big</span> Cruise <strong>Stores</strong></h3> 
+                    </div><br>
+                    <br>
+                    <p>Your sure padi <span>....</span></p>
+                </div>
+            </div>
+            <!-- EACH FOOTER -->
+            <div class="footer_box">
+                <p><span>navigate</span></p>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="clothes.html">Clothes</a></li>
+                        <li><a href="#">Shoes</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- EACH FOOTER -->
+            <div class="footer_box">
+                <p><span>suscribe</span></p>
+                <form action="#">
+                    <input type="text" placeholder="name">
+                    <input type="text" placeholder="email">
+                    <button>submit</button>
+                </form>
+            </div>
+        </footer>
+    </div>
+    <!-- FOOTER -->
+
+    <!--Stylings-->
+    <style>
+
+    </style>
+    <!--Stylings-->
+    <script src="app.js"></script>
+</body>
+</html>

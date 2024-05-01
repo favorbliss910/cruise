@@ -758,7 +758,11 @@ form input:focus-within{
             button:hover{
                 background: var(--green);
             }
-        /* HEADER */
+            
+        
+            
+            
+         /* HEADER */
         header{
             height: 70px;
             display: flex;
@@ -838,6 +842,8 @@ form input:focus-within{
             display: flex;
             top: 0;
         }
+
+
 
         /* SHOWCASE */
         .showcase{

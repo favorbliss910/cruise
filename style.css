@@ -1011,6 +1011,7 @@ form input:focus-within{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            flex-wrap: wrap;
             flex-direction: column;
             transform: translate(0, 0);
         }

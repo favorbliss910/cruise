@@ -1,5 +1,15 @@
-   <link rel="stylesheet" href="style.css">
-   <!--HEADER-->
+   
+   DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cruise Stores</title>
+    <link rel="shortcut icon" href="img/934-512.webp" type="img/934-512.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--HEADER-->
     <header>
         <!-- logo -->
         <div class="logo">
@@ -9,8 +19,40 @@
             </div>
         </div>
 
+        <div id="toggle-btn">
+            <div id="nav_btn"></div>
+            <div id="nav_btn"></div>
+            <div id="nav_btn"></div>
+        </div>
+
+        <style>
+            #toggle-btn{
+                padding: 5px;
+                margin: 10px;
+                z-index: 120;
+            }
+            #nav_btn{
+                width: 40px;
+                height: 3px;
+                background: var(--dark);
+            }
+            #nav_btn:nth-child(1){
+                transform: translate(-10px, -6px);
+            }
+            #nav_btn:nth-child(2){
+                transform: translate(0, 0);
+            }
+            #nav_btn:nth-child(3){
+                transform: translate(-10px, 7px);
+            }
+            #nav_btn:nth-child(3) .rotate{
+                transform: rotate(34deg);
+            }
+
+        </style>
+
         <!-- navbar -->
-        <div class="navbar">
+        <div id="navbar" class="navbar">
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -19,6 +61,8 @@
                     <li><a href="contact.html">contact</a></li>
                 </ul>
             </nav>
+
+            
 
             
             <!-- Search -->
@@ -36,6 +80,9 @@
         </div>
     </header>
     <!--HEADER-->
+   
+   
+   
 
     <section>
         <div class="detail">
@@ -90,3 +137,5 @@
         </footer>
     </div>
     <!-- FOOTER -->
+   </body>
+   </html>
